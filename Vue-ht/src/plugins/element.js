@@ -1,0 +1,60 @@
+import Vue from 'vue'
+import {
+    Button,
+    Form,
+    FormItem,
+    Input,
+    Select,
+    Option,
+    Message,
+    Row,
+    Col,
+    Dropdown,
+    DropdownMenu,
+    DropdownItem,
+    Notification,
+    Menu,
+    Submenu,
+    MenuItem,
+    MenuItemGroup,
+    Container,
+    Header,
+    Aside,
+    Main,
+    Table,
+    TableColumn,
+    Pagination,
+    Dialog,
+    Link,
+    MessageBox,
+    DatePicker
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Link)
+Vue.use(DatePicker)
+Vue.prototype.$message=Message
+Vue.prototype.$notify=Notification
+Vue.prototype.$confirm=MessageBox.confirm

@@ -1,0 +1,24 @@
+/* 全局样式表 */
+
+html,body,#app{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.el-header{
+    padding: 0;
+}
+
+.el-aside{
+    border-top:1px solid #333 ;
+}
+.el-main{
+    padding: 0;
+}
+.el-menu {
+    border: 0;
+  }
+.el-container {
+    height: 100vh;
+}
